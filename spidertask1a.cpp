@@ -1,31 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
-char convertbinary(int no,int n)
-{ int i=0;
-int a[1000];
-	while(no>0)
-	{
-	  int r=no%2;
-	  a[i]=r;
-	  i++;
-	  no=no/2;	
-	}
-	for(int j=0;j<i;j++)
-	{
-		cout<<a[n-j-1];
-	}
-}
-int convertnumber(char s[],int n){
-   int no=0;
-	for(int i=n-1;i>=0;i--)
-	{
-		if(s[i]=='1')
-		{
-			no+=pow(2,n-1-i);
-		}
-	}
-	return no;
-}
+
+
 int binaryadd(char s[],int n)
 {   int p=0;
 	int carry=0;
