@@ -17,14 +17,14 @@ int main()
    
    for(i=0;i<2;i++)
    {
-   	cout<<"query"<<i<<" "<<i+1;
+   	cout<<"query"<<i<<" "<<i+1<<" ";
    	cin>>in[i];
    	s[i]=in[i];
    	
    }
    for(i=3;i<5;i++)
    {
-   	cout<<"query"<<i<<" "<<i+1;
+   	cout<<"query"<<i<<" "<<i+1<<" ";
    	cin>>in[i];
    	s[i]=in[i];
    }
